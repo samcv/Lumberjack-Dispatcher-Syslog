@@ -1,24 +1,33 @@
 {
-   "depends" : [
-		"Lumberjack", "Log::Syslog::Native"
-   ],
-   "description" : "A Syslog dispatcher for the Lumberjack logger",
-   "provides" : {
-		"Lumberjack::Dispatcher::Syslog" : "lib/Lumberjack/Dispatcher/Syslog.pm"
-   },
-   "tags" : ["logger", "log", "syslog", "lumberjack"],
-   "perl" : "6.c",
-   "auth" : "github:jonathanstowe",
-   "version" : "0.0.2",
-   "support" : {
-      "source" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git"
-   },
-   "source-url" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
-   "license" : "perl",
-   "meta6" : "0",
-   "name" : "Lumberjack::Dispatcher::Syslog",
-   "resource" : {},
-   "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-   ]
+  "name": "Lumberjack::Dispatcher::Syslog",
+  "perl": "6.c",
+  "support": {
+    "source": "https://github.com/samcv/Lumberjack-Dispatcher-Syslog",
+    "bugtracker": "https://github.com/samcv/Lumberjack-Dispatcher-Syslog/issues"
+  },
+  "source-url": "git://github.com/samcv/Lumberjack-Dispatcher-Syslog.git",
+  "auth": "github:samcv",
+  "depends": [
+    "Lumberjack",
+    "Log::Syslog::Native"
+  ],
+  "provides": {
+    "Lumberjack::Dispatcher::Syslog": "lib/Lumberjack/Dispatcher/Syslog.pm"
+  },
+  "tags": [
+    "logger",
+    "log",
+    "syslog",
+    "lumberjack"
+  ],
+  "license": "Artistic-2.0",
+  "resource": {
+    
+  },
+  "version": "0.0.2",
+  "description": "A Syslog dispatcher for the Lumberjack logger",
+  "meta6": "0",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
 }
